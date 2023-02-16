@@ -1,6 +1,6 @@
 pipeline {
   agent {
-    docker { image 'node:ls ubuntu' }
+    docker { image 'node: ubuntu' }
   }
   stages {
     stage('Test') {
